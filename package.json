@@ -1,0 +1,25 @@
+{
+  "name": "docusignonlyapi",
+  "version": "1.0.0",
+  "description": "DocuSign with only API calls",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.8.2",
+    "request": "^2.70.0",
+    "promise": "^7.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UmamaheshMaxwell/DocuSignOnlyAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UmamaheshMaxwell/DocuSignOnlyAPI/issues"
+  },
+  "homepage": "https://github.com/UmamaheshMaxwell/DocuSignOnlyAPI#readme"
+}
