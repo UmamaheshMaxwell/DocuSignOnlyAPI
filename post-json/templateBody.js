@@ -1,4 +1,4 @@
-var body = {
+var body = {// Status should be 'created' stop E-mails
               envelopeTemplateDefinition: {   
                 name: "Who is JohnGalt ?",
                 shared: true,

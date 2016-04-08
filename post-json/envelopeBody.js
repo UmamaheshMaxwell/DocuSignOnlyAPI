@@ -1,3 +1,4 @@
+// Status should be 'created' stop E-mails
 var envelopeRequest = {
       emailSubject: 'Maxwell Envelope Document',
       documents: [
