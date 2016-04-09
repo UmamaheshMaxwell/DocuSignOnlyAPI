@@ -36,7 +36,7 @@ var envelopeRequest = {
           }
         ]
       },
-      status: 'created'
+      status: 'sent'
     }
 
  module.exports = envelopeRequest;  

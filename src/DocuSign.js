@@ -33,4 +33,14 @@ DocuSign.prototype.CreateEnvelope = function (accountId, body) {
     });
 };
 
+DocuSign.prototype.GetRecipientView = function (accountId, envelopeId,recipientRequest) {
+  var self = this;
+  console.log(endpoint.RECIPIENT_VIEW_URL(accountId, envelopeId));
+  return this.helper
+    .get(endpoint.RECIPIENT_VIEW_URL(accountId, envelopeId), recipientRequest, 'POST')    
+    .then(function (response) {       
+        return response;
+    });
+};
+
 module.exports = DocuSign;
