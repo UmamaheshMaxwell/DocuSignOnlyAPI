@@ -14,16 +14,16 @@ var config = {
 // Authenticate API 
 var docuSign = new DocuSign(config);
 
-    docuSign.login()
+   /* docuSign.login()
       .then(function (response) {
         console.log(response);
       })
       .catch(function(err){
             console.log(err);
-      });
+      });*/
 
 // Authenticate API and Create Template  
-    docuSign.login()
+ /*   docuSign.login()
       .then(function (response) {
          console.log(response);
          return docuSign.CreateTemplate(response.accountId, templateBody)
@@ -31,11 +31,11 @@ var docuSign = new DocuSign(config);
 		     console.log(response);
 		  }).catch(function(err){
 		      	console.log(err);
-     	});
+     	});*/
 
 
 // Authenticate API and create envelope 
-      docuSign.login()
+    /*  docuSign.login()
         .then(function (response) {
           console.log(response);    
           return docuSign.CreateEnvelope(response.accountId, envelopeRequest)
@@ -44,7 +44,7 @@ var docuSign = new DocuSign(config);
          }).catch(function(err){
     	     console.log(err);
         });
-
+*/
  
  // Authenticate API, create envelope and get recipientView
     var accountId;
